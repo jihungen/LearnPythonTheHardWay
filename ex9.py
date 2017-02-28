@@ -6,6 +6,7 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 print "Here are the days: ", days
 print "Here are the months: ", months
 
+# """ acts like <p> in HTML. It prints exactly what we wrote and allow the new line in the string.
 print """
 There's something going on here.
 With the three double-quotes.
