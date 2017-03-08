@@ -1,0 +1,52 @@
+Commands:
+Printing)
+print
+print a, b # put single space between a and b
+print '%d' % int_variable
+print '%s' % str_variable
+print '%d %s' % (int_variable, str_variable)
+print str_variable_1 + str_variable_2
+print '*' * 10 # print * 10 times!
+print '%r' % some_variable # %r for debugging
+print 'something\notherthing' # \n for new line
+print """
+multi-line printing!
+"""
+print '\\ means escape' # escape from the function other than string
+
+Input)
+variable = raw_input() # read the input from the prompt.
+variable = raw_input('How old are you? ') # read the input with the string.
+
+Arguements from the command-line)
+from sys import argv # import!
+script, argument_1, argument_2 = argv # read the arguments from the console
+
+File)
+txt = open(filename) # open the file
+txt = open(filename, 'w') # open the file for writing. without truncate, we can write the file from the beginning
+txt.read() # read the whole file
+txt.readline() # read one-line
+txt.write('stuff') # write 'stuff' into the file
+txt.truncate() # remove everything in the file
+txt.seek(0) # 0: move file pointer to the beginning of file, 1: current position, 2: the end of file
+txt.close() # close the opened file
+
+File-exist)
+from os.path import exists # import exists module
+exists(file_path)
+
+Functions)
+def func(variable_1, variable_2):
+  should be indented!
+def func(*variables): # read all the variables
+  should be indented!
+def func(a, b):
+  return a + b
+
+Operands:
++ - / * % < > <= >= +=
+
+Misc:
+The priorities between operands: PEMDAS (Parentheses Exponents Multiplication Division Addition Subtraction)
+Something more about the escape: https://learnpythonthehardway.org/book/ex10.html
