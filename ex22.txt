@@ -5,7 +5,7 @@ print a, b # put single space between a and b
 print '%d' % int_variable
 print '%s' % str_variable
 print '%d %s' % (int_variable, str_variable)
-print str_variable_1 + str_variable_2
+print str_variable_1 + str_variable_2 # concatenate str_variable_1 and str_variable_2
 print '*' * 10 # print * 10 times!
 print '%r' % some_variable # %r for debugging
 print 'something\notherthing' # \n for new line
