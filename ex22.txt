@@ -44,7 +44,7 @@ def func(*variables): # read all the variables
 def func(a, b):
   return a + b
 
-Operands:
+Math operators:
 + - / * % < > <= >= +=
 
 Misc:
